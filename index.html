@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARMATAR FURIOSA DRONES</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .main {
+            padding: 3rem 0;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card-header {
+            background-color: #f8fafc;
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .components {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1e3a8a;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact {
+            background-color: #f8fafc;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+
+        .footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .products, .components {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>ARMATAR FURIOSA DRONES</h1>
+            <p class="subtitle">Performance You Need, Price You Want</p>
+            <p>DESIGNED AND MADE IN EU</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="products">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>FURIOSA 7</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Payload: 1.5 kg</li>
+                            <li>Range: 10 km + 3 min hover</li>
+                            <li>Electronic Warfare Resilient</li>
+                            <li>From €260 without battery</li>
+                            <li>Made in EU: Frame, FC & ESC</li>
+                            <li>Capacity: 1000s units / month</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>FURIOSA 10</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Payload: 3 kg</li>
+                            <li>Range: 13 km + 5 min hover</li>
+                            <li>Electronic Warfare Resilient</li>
+                            <li>From €700 with battery</li>
+                            <li>Made in EU: Frame (WIP), FC & ESC</li>
+                            <li>Capacity: 1000s units / month</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Components</h2>
+            <div class="components">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Basic FC & ESC</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>MCU: STM32F405</li>
+                            <li>SW: Betaflight, INAV</li>
+                            <li>Power: 3-8S, 85A 40V</li>
+                            <li>Price: €40 @ 1000 pcs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Furiosa FC & ESC</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>MCU: STM32H743</li>
+                            <li>SW: Betaflight, INAV, ArduPilot</li>
+                            <li>Power: 3-8S, 85A 40V</li>
+                            <li>Price: €62 @ 100 pcs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>ELRS Dual RX</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Drop-in replacement for Chinese Dual ELRS RX</li>
+                            <li>Custom ELRS firmware</li>
+                            <li>Enhanced EW Resilience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>Riga, Latvia</p>
+                <p>info@armatar.com</p>
+                <p><a href="https://www.armatar.com" style="color: #1e3a8a;">www.armatar.com</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Armatar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
